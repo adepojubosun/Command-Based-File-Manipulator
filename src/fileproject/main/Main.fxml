@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="189.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fileproject.main.MainController">
+   <children>
+      <VBox layoutY="46.0" prefHeight="97.0" prefWidth="350.0" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="46.0">
+         <children>
+            <StackPane prefHeight="88.0" prefWidth="350.0">
+               <children>
+                  <TextField fx:id="commandText" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleExecute" prefHeight="33.0" prefWidth="210.0" promptText="Enter Command" />
+               </children>
+            </StackPane>
+         </children>
+      </VBox>
+      <Hyperlink alignment="CENTER" layoutX="139.0" layoutY="147.0" onAction="#handleHelp" prefHeight="23.0" prefWidth="62.0" text="help" />
+   </children>
+</AnchorPane>
